@@ -6,7 +6,6 @@ public class Piece {
 	private Board board;
 	
 	public Piece(Board board) {
-		System.out.println("Criando nova peça");
 		this.board = board;
 		position = null;
 	}
